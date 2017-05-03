@@ -1,0 +1,25 @@
+1. In C++ 11, you can use smart pointers to dynamically allocate memory and not worry about deleting the memory when you are finished using it. 
+2. To use any of the smart pointers in C++ 11, you must #include the memory header file with the following directive:#include <memory>   
+3. The ampersand (&) is used to dereference a pointer variable in C++. 
+4. A pointer can be used as a function argument, given the function access to the original argument. 
+6. It is legal to subtract a pointer variable from another pointer variable. 
+8. An array name is a pointer constant because the address stored in it cannot be changed during runtime. 
+9. Any arithmetic operation may be performed on pointers. 
+10. The expression *s->p; is only meaningful if s is a pointer to a structure and p is a pointer that is a member of that structure. 
+11. It is possible for a structure to contain as a member a pointer to its own structure type 
+12. The statement Rectangle * boxPtr; defines a variable boxPtr to be a pointer pointing to a type Rectangle. 
+13. With pointer variables you can access, but you cannot modify, data in other variables. 
+14. An array name is a pointer constant because the address it represents cannot be changed during run-time. 
+16. A pointer with the value 0 (zero) is called the NULL pointer.
+17. It is legal to subtract a pointer variable from another pointer variable. 
+18. The expression s->m has the same meaning as (*s).m. 
+19. The expression s->m is meaningful only when s is a pointer to a structure and m is a member of the structure. 
+21. C++ does not perform array bounds checking, making it possible for you to assign a pointer the address of an element out of the boundaries of an array. 
+22. It is legal to subtract a pointer variable from another pointer variable. 
+23. With pointer variables you can access, but you cannot modify, data in other variables. 
+32. Array names are NOT Pointer constants. 
+37. With pointer variables you can access, but you cannot modify, data in other variables. 
+78. You cannot assign an array to a pointer variable. 
+81. If p1 and p2 are both pointers that point somewhere in memory, the condition p1==p2 will be  true if they point to the same place.
+97.  int *ptr=&x initializes the pointer to the address of x variable
+96.  int *p=10; is a valid expression
