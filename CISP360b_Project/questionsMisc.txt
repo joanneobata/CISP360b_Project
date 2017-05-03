@@ -1,0 +1,25 @@
+60. A break statement in a switch stops your program. 
+61. A boolean expression may evaluate to more than 2 values 
+62. Every include directive must be  followed by using namespace std;.
+63. Functions may have multiple return statements. 
+64. A void function can return any value 
+65. It is illegal to call other functions from inside a function definition. 
+66. It is acceptable to have both call-by-value and call-by-reference parameters in the same  function declaration.
+67. Using the [i] on a string variable does not check for illegal values of i. 
+68. A string variable and a c-string are the same data  type.
+71. In a function with call-by-reference parameters, the address of the actual arguments are passed to the function. 
+75. The stack is used to control  recursion.
+76. The following declares a c-string variable that will hold up to 10 letters entered by the user.  char str[10];
+77. Default arguments can be located anywhere in the parameter list of a function. 
+80. Dynamically created variables have no name. 
+82. Not all recursive definitions may be written iteratively. 
+83. The cin>> input statement is used to receive data from keyboard.
+86. A comment in C++ language starts with */ and ends with /*.
+87. a+=1 is an unary expression
+88. a+=1 is a binary expression
+89. & is not a logical operator in C++ language
+90. The purpose of using a loop is to make a decision
+91. The for loop and while loop are not pretest loops
+92. The break command is used to exit a loop.
+93. The while loop is a posttest loop.
+98. The following function definition is incorrect: int myfunction(int x,y){return(x*y);}

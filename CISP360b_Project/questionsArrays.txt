@@ -1,0 +1,25 @@
+20. Assuming myValues is an array of int values, and index is an int variable, both of the following statements do the same thing.  cout << myValues[index] << endl;  cout << *(myValues + index) << endl; 
+28. If an array is partially initialized, the uninitialized elements will be set to zero.
+29. An individual array element can be processed like any other type of C++ variable. 
+30. If you attempt to store data past an array's boundaries, it is guaranteed that the compiler will issue an error. 
+31. When you pass an array as an argument to a function, the function will create a local copy of the array. 
+36. Two dimensional arrays can be passed to function, but the row size MUST be specified in the definition of the parameter variable.
+42. When you pass an array as an argument to a function, the function can modify the contents of the array. 
+43. The amount of memory used by an array depends upon the array's data type and the number of elements in the array. 
+69. The indexed elements (members) of an array must be integers. 
+70. The locations of the various elements (members) in  a dynamic 1-d array on the heap can be spread out all over the memory.
+72. When you have a function that expects an integer array, it should also expect the size of the array or the number of indexed elements (members) with valid data. 
+73. The following function declaration guarantees the values in the array argument are not changed.  void function1(int array[], int numElements);
+74. If a function is expecting a pass by reference parameter, you can pass an indexed element (member) from an array of the same base type to that function. 
+79. The size of static arrays must be declared at compile time. 
+94. A one-dimensional array can store data in the form of table with many rows and columns.
+95. A one-dimensional array can store different types of data 
+122. Dynamic arrays can grow in size while program is executing, static arrays cannot. Static size must be known before runtime.
+123. Dynamically allocated variables must be deleted to free the memory.
+124. Name of a dynamic array is pointer to first element in the array
+125. The length of the array needs to be constant before declaration
+126. Name of a static array constant is a pointer to the first element in the array
+127. & is an address of operator. It returns the memory address of a variable
+128. To declare a dynamic array type *array_name
+129. With dynamic allocation, the "new" operator is required to declare a variable on the heap. Then it must be deleted
+130. Use delete[] d_a; to delete Dynamic Array double* d_a = new double[n];
